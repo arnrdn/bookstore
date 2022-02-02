@@ -1,23 +1,23 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../../redux/books/books';
+import { addBookToApi } from '../../redux/books/books';
 
 const Form = () => {
   const dispatch = useDispatch();
   const [title, setTitle] = useState('');
-  const [author, setAuthor] = useState('');
+  const [category, setCategory] = useState('');
 
   const addNewBook = (e) => {
     e.preventDefault();
-    if (title === '' || author === '') return;
+    if (title === '' || category === '') return;
     const newBook = {
       id: Math.random().toString(16).slice(2),
       title,
-      author,
+      category,
     };
-    dispatch(addBook(newBook));
+    dispatch(addBookToApi(newBook));
     setTitle('');
-    setAuthor('');
+    setCategory('');
   };
 
   return (
@@ -25,7 +25,7 @@ const Form = () => {
       <h2>Add new book</h2>
       <form onSubmit={(e) => addNewBook(e)}>
         <input type="text" className="book-title" placeholder="Book title" value={title} onChange={(e) => setTitle(e.target.value)} required />
-        <input type="text" className="book-category" placeholder="Author" value={author} onChange={(e) => setAuthor(e.target.value)} required />
+        <input type="text" className="book-category" placeholder="Category" value={category} onChange={(e) => setCategory(e.target.value)} required />
         <button type="submit" className="book-submit">Add Book</button>
       </form>
     </div>
