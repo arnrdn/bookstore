@@ -16,8 +16,9 @@ const BookList = () => {
       {books.length ? (books.map((book) => (
         <Book book={book} key={book.id} />
       ))) : (
-        <h3>No books here</h3>
+        <h3 className="no-books">Add your first book here :&#41;</h3>
       )}
+      <div className="line" />
     </div>
   );
 };

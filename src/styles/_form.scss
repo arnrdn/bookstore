@@ -1,0 +1,36 @@
+.form {
+  width: 80%;
+  margin: 3rem auto 5rem auto;
+  font-family: $montserrat;
+
+  h2 {
+    text-transform: uppercase;
+    color: #888;
+    font-size: 1.25rem;
+    margin: 2rem 0;
+  }
+}
+
+input {
+  padding: 0.8rem 1rem;
+  border: 1px solid $borders;
+  border-radius: $radius;
+
+  &::placeholder {
+    color: $input-font-color;
+    font-size: 1.188rem;
+  }
+}
+
+form {
+  display: grid;
+  grid-template-columns: 5fr 3fr 2fr;
+  column-gap: 2.25rem;
+  justify-content: space-between;
+
+  button {
+    @include blue-btn;
+
+    font-weight: bold;
+  }
+}

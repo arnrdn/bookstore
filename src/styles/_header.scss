@@ -1,0 +1,52 @@
+header {
+  background-color: #fff;
+  border-bottom: 1px solid $borders;
+  font-family: $montserrat;
+}
+
+.header-container {
+  @include flexbox-row;
+
+  width: 80%;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+
+.logo a {
+  font-size: 1.875rem;
+  color: $blue;
+  font-weight: bold;
+}
+
+.logo-nav {
+  @include flexbox-row;
+
+  justify-content: space-between;
+
+  ul li a {
+    font-size: 0.813rem;
+    font-weight: normal;
+    color: #121212;
+    text-transform: uppercase;
+    margin-left: 1rem;
+    opacity: 0.5;
+    transition: 200ms;
+  }
+
+  .active {
+    opacity: 1;
+  }
+
+  ul li:first-child {
+    margin-left: 2rem;
+  }
+
+  ul li a:hover {
+    opacity: 1;
+  }
+}
+
+.fa-user {
+  cursor: pointer;
+}
