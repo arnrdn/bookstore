@@ -1,0 +1,127 @@
+.no-books {
+  text-align: center;
+  font-family: $roboto-slab;
+  color: $blue;
+}
+
+.books {
+  margin: 2.313rem auto;
+  width: 80%;
+}
+
+.book-container {
+  @include flexbox-row;
+
+  justify-content: space-between;
+  padding: 2rem 1.6rem;
+  background-color: #fff;
+  border: 1px solid $borders;
+  border-radius: $radius;
+  margin: 0 auto 0.938rem auto;
+}
+
+.title {
+  margin: 1.3rem 0;
+
+  h3 {
+    font-family: $roboto-slab;
+    font-weight: 700;
+    color: #121212;
+    font-size: 1.375rem;
+  }
+
+  h4 {
+    @include little-blue;
+  }
+}
+
+.interaction-btn {
+  @include flexbox-row;
+
+  button {
+    @include little-blue;
+
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+
+  div {
+    height: 1.5rem;
+    width: 0.125rem;
+    background-color: $borders;
+    margin-right: 10px;
+  }
+}
+
+.user-progress-container {
+  @include flexbox-row;
+
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.user-progress {
+  @include flexbox-row;
+}
+
+.line-progress {
+  width: 0.125rem;
+  height: 4.375rem;
+  background-color: $borders;
+  margin: 0 5%;
+}
+
+.about-progressbar {
+  @include flexbox-row;
+
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1.3rem;
+
+  .curr-progress {
+    font-family: $montserrat;
+    font-size: 2rem;
+    font-weight: normal;
+    color: #000;
+  }
+
+  &:nth-child(2n) {
+    font-family: $montserrat;
+    font-size: 0.875rem;
+    color: rgba(18, 18, 18, 0.5);
+  }
+}
+
+.book-info {
+  .curr {
+    color: rgba(18, 18, 18, 0.5);
+    text-transform: uppercase;
+    font-family: $roboto-slab;
+    font-size: 0.813rem;
+    font-weight: 300;
+    margin-bottom: 0.4rem;
+  }
+
+  h5 {
+    color: #121212;
+    font-family: $roboto-slab;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 1.2rem;
+  }
+
+  .update-btn {
+    @include blue-btn;
+
+    padding: 0.4rem 1.3rem;
+  }
+}
+
+.line {
+  margin: 2rem auto;
+  width: 100%;
+  height: 1px;
+  background-color: $borders;
+}

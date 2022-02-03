@@ -1,0 +1,379 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Slab:wght@300;700&display=swap");
+
+header {
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 80%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: auto;
+  padding: 1.5rem 0;
+}
+
+.logo-nav {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: transparent;
+}
+
+.logo a {
+  font-size: 1.875rem;
+  color: #0290ff;
+  font-weight: bold;
+}
+
+.logo-nav ul li a {
+  font-size: 0.813rem;
+  font-weight: normal;
+  color: #121212;
+  text-transform: uppercase;
+  margin-left: 1rem;
+  opacity: 0.5;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+}
+
+.logo-nav .active {
+  opacity: 1;
+}
+
+.logo-nav ul li:first-child {
+  margin-left: 2rem;
+}
+
+.logo-nav ul li a:hover {
+  opacity: 1;
+}
+
+.fa-user {
+  cursor: pointer;
+}
+
+.no-books {
+  text-align: center;
+  font-family: "Roboto Slab", serif;
+  color: #0290ff;
+}
+
+.books {
+  margin: 2.313rem auto;
+  width: 80%;
+}
+
+.book-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 2rem 1.6rem;
+  background-color: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  margin: 0 auto 0.938rem auto;
+}
+
+.title {
+  margin: 1.3rem 0;
+}
+
+.title h3 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  color: #121212;
+  font-size: 1.375rem;
+}
+
+.title h4 {
+  font-family: "Roboto Slab", serif;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+}
+
+.interaction-btn {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+form button {
+  background-color: #0290ff;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.813rem;
+  font-weight: bold;
+}
+
+.interaction-btn button {
+  font-family: "Roboto Slab", serif;
+  color: #4386bf;
+  font-size: 0.875rem;
+  font-weight: 300;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.interaction-btn div {
+  height: 1.5rem;
+  width: 0.125rem;
+  background-color: #e8e8e8;
+  margin-right: 10px;
+}
+
+.user-progress-container {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.user-progress {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.line-progress {
+  width: 0.125rem;
+  height: 4.375rem;
+  background-color: #e8e8e8;
+  margin: 0 5%;
+}
+
+.about-progressbar {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin-left: 1.3rem;
+}
+
+.about-progressbar .curr-progress {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #000;
+}
+
+.about-progressbar:nth-child(2n) {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.875rem;
+  color: rgba(18, 18, 18, 0.5);
+}
+
+.book-info .curr {
+  color: rgba(18, 18, 18, 0.5);
+  text-transform: uppercase;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.813rem;
+  font-weight: 300;
+  margin-bottom: 0.4rem;
+}
+
+.book-info h5 {
+  color: #121212;
+  font-family: "Roboto Slab", serif;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-bottom: 1.2rem;
+}
+
+.book-info .update-btn {
+  background-color: #0290ff;
+  border: none;
+  border-radius: 4px;
+  text-transform: uppercase;
+  color: #fff;
+  font-family: "Roboto Slab", serif;
+  font-size: 0.813rem;
+  padding: 0.4rem 1.3rem;
+}
+
+.line {
+  margin: 2rem auto;
+  width: 100%;
+  height: 1px;
+  background-color: #e8e8e8;
+}
+
+.form {
+  width: 80%;
+  margin: 3rem auto 5rem auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.form h2 {
+  text-transform: uppercase;
+  color: #888;
+  font-size: 1.25rem;
+  margin: 2rem 0;
+}
+
+input {
+  padding: 0.8rem 1rem;
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+}
+
+input::-webkit-input-placeholder {
+  color: #c4c4c4;
+  font-size: 1.188rem;
+}
+
+input::-ms-input-placeholder {
+  color: #c4c4c4;
+  font-size: 1.188rem;
+}
+
+input:-ms-input-placeholder {
+  color: #c4c4c4;
+  font-size: 1.188rem;
+}
+
+input::placeholder {
+  color: #c4c4c4;
+  font-size: 1.188rem;
+}
+
+form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 5fr 3fr 2fr;
+  grid-template-columns: 5fr 3fr 2fr;
+  -webkit-column-gap: 2.25rem;
+  column-gap: 2.25rem;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f5f6fa;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    'Roboto',
+    'Oxygen',
+    'Ubuntu',
+    'Cantarell',
+    'Fira Sans',
+    'Droid Sans',
+    'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro,
+    Menlo,
+    Monaco,
+    Consolas,
+    'Courier New',
+    monospace;
+}
+
+ul {
+  list-style: none;
+  display: -webkit-box;
+  display: flex;
+}
+
+h1 {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  color: #0290ff;
+  padding: 5rem;
+}
+
+#root {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.App {
+  background-color: #fafafa;
+  overflow-y: scroll;
+  margin: auto;
+  height: 90%;
+  width: 80%;
+  min-width: 750px;
+  max-width: 87.5rem;
+  border-radius: 4px;
+  -webkit-box-shadow: 15px 19px 50px -5px rgba(0, 0, 0, 0.25);
+  box-shadow: 15px 19px 50px -5px rgba(0, 0, 0, 0.25);
+}
+
+.App::-webkit-scrollbar {
+  width: 10px;
+}
+
+.App::-webkit-scrollbar-thumb {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+.App::-webkit-scrollbar-track {
+  background: #e8e8e8;
+  border-radius: 5px;
+}
