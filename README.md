@@ -18,6 +18,7 @@
 - SASS
 - React
 - Font Awesome
+- [Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739)
 
 ## Live Demo
 
