@@ -2,22 +2,26 @@
 
 # Bookstore
 
-> This is an app where you can use to store your favourite books!
+> It is an app you can use to store your favorite books! You can update them and delete them afterward. All of the books stored in the [Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739)!
 
 <p align="center">
-  <img src="./img/not-yet.png" width="400px">
+  <img src="./src/img/app-screenshot.png" width="600px">
+</p>
+<p align="center">
+  <img src="./src/img/ui.gif" width="600px">
 </p>
 
 
 ## Built With
 
-- HTML, CSS, JavaScript
+- HTML, CSS
+- SASS
 - React
-- Jest
+- Font Awesome
 
 ## Live Demo
 
-[Click here to see a live version of this app!](цшдд-иу-руку-ыщщт)
+[Click here to see a live version of this app!](https://bookstore-rdnrn.herokuapp.com/)
 
 ## Getting Started
 
