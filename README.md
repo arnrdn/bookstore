@@ -22,8 +22,8 @@
 
 ## Live Demo
 
-[Click here to see a live version on Netlify!](https://modest-easley-404161.netlify.app)
-[Click here to see a live version on Heroku!](https://bookstore-rdnrn.herokuapp.com/)
+- [Click here to see a live version on Netlify!](https://modest-easley-404161.netlify.app)
+- [Click here to see a live version on Heroku!](https://bookstore-rdnrn.herokuapp.com/)
 
 ## Getting Started
 
