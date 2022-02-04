@@ -2,7 +2,7 @@
 
 # Bookstore
 
-> It is an app you can use to store your favorite books! You can update them and delete them afterward. All of the books stored in the [Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739)!
+> It is an app you can use to store your favorite books! You can update them and delete them afterward. All of the books are stored in the [Bookstore API](https://www.notion.so/Bookstore-API-51ea269061f849118c65c0a53e88a739)!
 
 <p align="center">
   <img src="./src/img/app-screenshot.png" width="600px">
